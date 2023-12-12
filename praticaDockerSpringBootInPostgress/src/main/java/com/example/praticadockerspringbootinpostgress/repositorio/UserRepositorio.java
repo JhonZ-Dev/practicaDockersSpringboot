@@ -1,4 +1,9 @@
 package com.example.praticadockerspringbootinpostgress.repositorio;
 
-public interface UserRepositorio {
+import com.example.praticadockerspringbootinpostgress.modelo.UserModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepositorio extends JpaRepository<UserModel, Long> {
+
+    
 }
