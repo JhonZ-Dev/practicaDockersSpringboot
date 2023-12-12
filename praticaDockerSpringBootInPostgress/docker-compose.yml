@@ -1,1 +1,4 @@
 #Aqui se definen los servicios
+#contenedor de postgrees
+#con dockercompose podemos definir redes, volumenos a través del archivo yaml.
+# levantar_todo a travpes de un mismo comando asi como gestionar
