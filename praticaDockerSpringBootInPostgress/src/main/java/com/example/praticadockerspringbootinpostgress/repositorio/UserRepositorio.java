@@ -1,4 +1,4 @@
 package com.example.praticadockerspringbootinpostgress.repositorio;
 
-public class UserRepositorio {
+public interface UserRepositorio {
 }
