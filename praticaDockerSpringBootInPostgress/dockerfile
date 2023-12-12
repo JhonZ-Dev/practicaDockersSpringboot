@@ -1,1 +1,4 @@
 #atraves de este archivo se genera la imagen del docker a partir de la aplicacion
+#definir dockerfile
+FROM openjdk:17-jdk-alpine
+COPY target/
