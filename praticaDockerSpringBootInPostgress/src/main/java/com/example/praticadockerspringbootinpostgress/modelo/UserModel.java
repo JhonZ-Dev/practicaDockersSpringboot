@@ -1,4 +1,4 @@
 package com.example.praticadockerspringbootinpostgress.modelo;
 
-public class User {
+public class UserModel {
 }
