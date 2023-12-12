@@ -1,4 +1,5 @@
 #atraves de este archivo se genera la imagen del docker a partir de la aplicacion
 #definir dockerfile
 FROM openjdk:17-jdk-alpine
-COPY target/
+COPY target/praticaDockerSpringBootInPostgress-0.0.1-SNAPSHOT.jar java-app.jar
+ENTRYPOINT ["java", "-jar", "java-app.jar"]
