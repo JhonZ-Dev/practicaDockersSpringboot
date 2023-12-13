@@ -14,7 +14,10 @@ public class UserController {
     @Autowired
     public UserRepositorio userRepositorio;
 
-   
+    @GetMapping
+    public List<UserModel> obtenerUsuarios(){
+        return  userRepositorio.findAll();
+    }
 
     @GetMapping("/{id}")
     public UserModel getUserById(@PathVariable Long id){
